@@ -1,147 +1,155 @@
 body {
 background-color: #FFFFFF; 
-max-width: 1400px;
-max-height: 3843px;
+
 }
+
+
 
 
 .logo {
-/* Logo */
-    position: absolute;
-    width: ;
-    height: 78px;
-    left: 144px;
-    color: #173A56;
-    margin-top: 20px;
-}
+        /* Logo */
+  
+ }
 
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-/* identical to box height */
+ /*
+ .sign-in {
+     Sign In 
+    display: flex; 
+    justify-content:flex-start;
+    align-items: flex-end;
+*/
 
 
-color: #173A56;
-
-
-.sign-in {
-    /* Sign In */
-    width: 110;
-    height: 46;
-    margin-left: 1029px;
-    margin-top: 35px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height */
-    
-    
-    color:
-}
-
-
+/*
 .sign-up {
-    /* Bg */
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-/* identical to box height */
+     Bg 
+    display: flex; 
+    justify-content:flex-end;
+    align-items: space-around;
+    */
 
 
-
-    width: 110px;
-    height: 46px;
-    margin-left:  1145px;
-    background: #FF9900;
-    border-radius: 4px;
+.header-container{
+    width: 518px;
+    height: 108px;
+    margin: 144px;
     
-
-
-
-
-
-
-    color: #FFFFFF;
+    display: flex;
+    flex-direction: row; /* rör ej flex direktion  */
+    flex-wrap: 
+    
 }
-
-
-.section {
-    display: inline-block; 
+/
+.header-info 
+    display: flex;
+    flex-wrap: wrap
+    
 }
-
 
 
 .main-title {
-    max-width: 518px;
-    width: 100%;
-    height: 108px;
-    margin-left: 148px;
-    margin-top: 178px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 44px;
-    line-height: 54px;
-    /* or 123% */
-    color: #2F281E;
+   
+    
 }
 
 
 .main-info {
-    max-width: 458px;
-    height: 95px;
-    margin-left: 160px;
-    margin-top: 42px;
+
+    
+}
+
+
+.header-btn{
+    width: 366px;
+    height: 53px;
+    display: flex;
+    
+}
+
+
+.btn-1{
+    width: 175px;
+    height: 53px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    background-color: orange;
+    color: white;
+   
+}
+
+.btn-2{
+    width: 175px;
+    height: 53px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    background-color: white;
+    color:orange;
+    border: none ;
+}
+
+
+
+.header-img{
+    /*
+    display: flex;
+    justify-self: flex-start ;
+    flex-wrap: wrap;
+    */
+    
+}
+
+.design {
+
+  
+}
+
+
+.design.info{
+
+
+    
+}
+
+.design-img{
+
+
+    
+}
+
+
+
+
+
+
+
+
 /* or 156% */
 
 }
 
 
 
-/*
-.section {
-    max-width: 1111px;
-    width: 100%;
-    height: 108px;
-    left: 145px;
-    top: 168px;
-}*/
 
-.btn {
-/* Button */
-position: absolute ;
-width: 175px;
-height: 53px;
-background: #FF9900;
-border-radius: 8px;
-font-family: 'Poppins', sans-serif; 
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
-margin-left: 145px;
-margin-top: 40px;
-color: #FFFFFF;
-border: none;
+
+
+
+
+ 
+
+
 }
 
 .btn:hover {
-    background-color: orange ;
-}
-
-
-.btv {
+    background-color: orange 
 
 }
+
+
