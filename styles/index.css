@@ -1,155 +1,236 @@
-body {
-background-color: #FFFFFF; 
-
+.body {
+  /* max-width:1400px ;
+   background-color: #FFFFFF; 
+   height: 3843px;*/
 }
-
-
-
+.header {  
+    width:100% ;
+    max-width: 1400px;
+    margin:0 auto;
+    display: flex;
+   /* height: 30px;*/
+    justify-content: space-between;
+    align-items: center;
+    color: #173A56;
+} 
 
 .logo {
-        /* Logo */
-  
- }
-
- /*
- .sign-in {
-     Sign In 
-    display: flex; 
-    justify-content:flex-start;
-    align-items: flex-end;
-*/
-
-
-/*
-.sign-up {
-     Bg 
-    display: flex; 
-    justify-content:flex-end;
-    align-items: space-around;
-    */
-
-
-.header-container{
-    width: 518px;
-    height: 108px;
-    margin: 144px;
-    
     display: flex;
-    flex-direction: row; /* rör ej flex direktion  */
-    flex-wrap: 
-    
+    align-items: center;
 }
-/
-.header-info 
+.logo-img{
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.navigation {   rör ej mer 
+    max-width: 1400px; 
+    height: 78px; 
+    display:flex;
+    justify-content: space-evenly;
+}*/
+
+.navigation{             /*  klar*/
+    list-style-type: none;
     display: flex;
-    flex-wrap: wrap
-    
+    justify-content: flex-end;
+    justify-content: space-between;
 }
 
-
-.main-title {
-   
-    
+.navigation-button {  /* rör ej mer */
+    display: flex;
+    justify-content: flex-end ;   
 }
-
-
-.main-info {
-
-    
+/*sign in*/   /* rör ej mer */
+.navigation-button-2 {
+    width:102px;
+    height:46px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #173A56;
+    border-color: #BCD0E5;
+    border: none;
+    border:4px;
 }
+/*sign up*/    /* rör ej mer  */
+/*.button { 
+    width:110px;
+    height:46px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background-color:#FF9900;
+    border: none;
+    border-radius: 4px;
 
+} */
 
-.header-btn{
-    width: 366px;
+.header-container {    /* rör ej mer  */
+    max-width: 1111px;
+    height: 496px;
+    margin: 145px;
+    display: flex;
+    flex-direction: ; /* rör ej flex direktion: row  */
+}
+.header-info{   /* rör ej mer  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.header-btn {   /* rör ej mer  */
+    max-width:366px;
     height: 53px;
     display: flex;
-    
+    justify-content: space-evenly;
 }
-
-
-.btn-1{
-    width: 175px;
-    height: 53px;
+.btn-1 {  /* get started  */   /* rör ej mer  */
+    width:175px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
+/* identical to box height */
+    background-color: #FF9900;
+    color: #FFFFFF;
     border: none;
-    background-color: orange;
-    color: white;
-   
 }
-
-.btn-2{
-    width: 175px;
-    height: 53px;
+.btn-2 {  /* Triangel  */   /* rör ej mer  */
+    max-width:20px;
+    height:17px;
+    border-radius: 1.125px;
+}
+.btn-3 {  /* watch this video */    /* rör ej mer  */
+    max-width:135px;
+    height:24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     text-decoration-line: underline;
-    background-color: white;
-    color:orange;
-    border: none ;
+    color: #FF9900;
+}
+.header-img {     /* rör ej mer  */
+    height: 496px;
+    display: flex;
 }
 
 
 
-.header-img{
-    /*
-    display: flex;
-    justify-self: flex-start ;
-    flex-wrap: wrap;
-    */
+/*
+.feature{
+    Width:175px;
+    Height:53px;
+    display: flex; 
+    justify-content: ;
+    flex-direction: row;
+}*/
+
+.btn-feature {
+    Width: 175px;
+    Height:53px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: tomato;
+    border-color: indigo;
+    border-style: ridge;
+    border-width: thick;
+    display: flx;
+    align-items: ;
     
 }
 
-.design {
+
+
+
+
 
   
-}
 
-
-.design.info{
-
-
+.feature-container {       /*    rör ej mer   */
+    max-width: 2211px;
+    height: 543px;
+    display: flex;
+    justify-content: center;
+    flex-direction: ;
     
 }
-
-.design-img{
-
-
-    
-}
-
-
-
-
-
-
-
-
-/* or 156% */
-
-}
-
-
-
-
-
-
-
-
  
+    
+.design-title { /* rubrik till we design tools*/
+    max-width: 539px;
+    height: 108px;
+    display:flex ;
+    justify-content:-end ;
+    flex-direction:row ;
+    
+} 
 
-
+/*EJ KLAR*/   
+/* korten ligger innuti feature container och som är under rubriken design title */
+.card {
+    max-width: 1095px;
+    height: 204px;
+    display: flex;
+    justify-content: space-between ;
+    flex-direction: row;   
 }
 
-.btn:hover {
-    background-color: orange 
+ltitle {  /* rör inte justify-content: center; */
+    max-width: 164px;
+    height: 33px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
 
+    display:flex ;
+    flex-direction:;
+    justify-content: ;
+    align-items:  ;
+    color: #2F281E;
+    
+}   
+
+
+ltext { /* rubriker och text till design tools */
+    max-width:240px ;
+    height: 52px ;
+    font-weight: 500px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    flex-direction:;
+    justify-content: space-evenly;
+    color: #2F281E;
 }
+
+
+
+
+
+
+
 
 
