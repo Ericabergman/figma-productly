@@ -1,7 +1,8 @@
 .body {
-  /* max-width:1400px ;
+   max-width:1400px ;
+   max-height: 3843px;
    background-color: #FFFFFF; 
-   height: 3843px;*/
+   
 }
 .header {  
     width:100% ;
@@ -18,9 +19,7 @@
     display: flex;
     align-items: center;
 }
-.logo-img{
- 
-}
+
 
 
 
@@ -40,20 +39,22 @@
     justify-content: space-evenly;
 }*/
 
-.navigation{             /*  klar*/
-    list-style-type: none;
+/*.navigation {  /*             
+    
     display: flex;
     justify-content: flex-end;
     justify-content: space-between;
-}
+}klar*/
 
-.navigation-button {  /* rör ej mer */
+.navigation {  /* rör ej mer */
     display: flex;
-    justify-content: flex-end ;   
+    justify-content: space-evenly;   
+    list-style-type: none;
+
 }
-/*sign in*/   /* rör ej mer */
-.navigation-button-2 {
-    width:102px;
+   /* rör ej mer */
+.Sign-in {
+    max-width:102px;
     height:46px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -65,40 +66,44 @@
     border: none;
     border:4px;
 }
-/*sign up*/    /* rör ej mer  */
-/*.button { 
-    width:110px;
-    height:46px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    background-color:#FF9900;
-    border: none;
-    border-radius: 4px;
 
-} */
+
+
 
 .header-container {    /* rör ej mer  */
     max-width: 1111px;
     height: 496px;
     margin: 145px;
     display: flex;
-    flex-direction: ; /* rör ej flex direktion: row  */
+     /* rör ej flex direktion: row  */
 }
 .header-info{   /* rör ej mer  */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
-.header-btn {   /* rör ej mer  */
+
+
+
+
+
+
+
+.header-btn {    /*rör ej mer, på riktigt rör inte  */
     max-width:366px;
     height: 53px;
     display: flex;
     justify-content: space-evenly;
 }
-.btn-1 {  /* get started  */   /* rör ej mer  */
+
+
+
+
+
+
+
+
+.btn-1 {  /* get started  */   /* rör ej mer, på riktigt rör inte */
     width:175px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -110,12 +115,12 @@
     color: #FFFFFF;
     border: none;
 }
-.btn-2 {  /* Triangel  */   /* rör ej mer  */
+.btn-2 {  /* Triangel  */   /* rör ej mer, på riktigt rör inte  */
     max-width:20px;
     height:17px;
     border-radius: 1.125px;
 }
-.btn-3 {  /* watch this video */    /* rör ej mer  */
+.btn-3 {  /* watch this video */    /* rör ej mer, på riktigt rör inte  */
     max-width:135px;
     height:24px;
     font-family: 'Poppins', sans-serif;
@@ -126,23 +131,90 @@
     text-decoration-line: underline;
     color: #FF9900;
 }
-.header-img {     /* rör ej mer  */
+.header-img {     /* rör ej mer, på riktigt rör inte  */
     height: 496px;
     display: flex;
 }
 
 
 
-/*
-.feature{
-    Width:175px;
-    Height:53px;
-    display: flex; 
-    justify-content: ;
-    flex-direction: row;
-}*/
 
-.btn-feature {
+
+
+
+
+
+
+
+                    /*     Andra sektionen börjar här
+                               ej-fattas iconer                */
+
+
+.feature-container{
+    max-Width:2211px;
+    Height:543px;    
+}
+
+
+.main-title { /* huvudrubrik till we design tools*/
+    
+    height: 108px;
+    display: flex;
+    justify-content: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #2F281E;
+} 
+
+
+  
+/* ej klar-fattas iconer */
+.card {
+    height: 204px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.design-title { 
+    max-width: 192px;
+    height: 33px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+}   
+
+.info_card{
+    width: 240px;
+    
+}
+
+
+
+.design-info {
+    width: 240px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+
+}
+
+
+
+
+
+
+
+.btn-feature {            /*   ej klar- placering ej korrekt        */
     Width: 175px;
     Height:53px;
     font-family: 'Poppins', sans-serif;
@@ -151,79 +223,105 @@
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
-    background-color: tomato;
-    border-color: indigo;
-    border-style: ridge;
-    border-width: thick;
-    display: flx;
-    align-items: ;
-    
-}
-
-
-
-
-
-
-  
-
-.feature-container {       /*    rör ej mer   */
-    max-width: 2211px;
-    height: 543px;
-    display: flex;
-    justify-content: center;
-    flex-direction: ;
-    
-}
- 
-    
-.design-title { /* rubrik till we design tools*/
-    max-width: 539px;
-    height: 108px;
-    display:flex ;
-    justify-content:-end ;
-    flex-direction:row ;
-    
-} 
-
-/*EJ KLAR*/   
-/* korten ligger innuti feature container och som är under rubriken design title */
-.card {
-    max-width: 1095px;
-    height: 204px;
-    display: flex;
-    justify-content: space-between ;
-    flex-direction: row;   
-}
-
-ltitle {  /* rör inte justify-content: center; */
-    max-width: 164px;
-    height: 33px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 33px;
-
-    display:flex ;
-    flex-direction:;
-    justify-content: ;
-    align-items:  ;
-    color: #2F281E;
-    
+    background-color: #FF9900;
+    border:none;
 }   
 
 
-ltext { /* rubriker och text till design tools */
-    max-width:240px ;
-    height: 52px ;
-    font-weight: 500px;
-    font-size: 16px;
+
+
+
+
+
+
+
+       /*    Tredje sektionen börjar här   */          
+             /*design professionals */
+             
+
+/*.design.professionals-container */
+
+
+.title {   /* Huvudrubrik-Design Professionals  */
+
+    max-width: 385px;
+    height: 54px;
     font-family: 'Poppins', sans-serif;
-    display:flex;
-    flex-direction:;
-    justify-content: space-evenly;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
     color: #2F281E;
+
+}
+
+.info {     /*      Info till Design Professionals       */
+    max-width: 486px;
+    height: 52px;
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+ 
+.fa-mouse-pointer {         /* icon 1 */
+    width: 51px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #7752BE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 19px;
+}
+
+
+
+
+ /* icon 3 */
+
+
+
+
+
+
+
+.fa-heart {              /* icon 2 */
+    width: 50px; 
+    height: 50px;    
+    color: #FFFFFF;
+    background-color: #F03E3D;
+    display: flex;
+    justify-content:center;
+    align-items: center;       
+    border-radius: 19px;   
+}
+
+
+
+
+       /* icon 4*/
+
+.fa-hourglass-hal {               
+    width: 50px; 
+    height: 50px;    
+    color:#FFFFFF;
+    background-color: #4DADF7;
+    display: flex;
+    justify-content:center;
+    align-items: center;       
+    border-radius: 19px;   
+
+}
+
+
+
+.img {
+    display: flex;
+    position: absolute;
 }
 
 
