@@ -1,15 +1,14 @@
 .body {
-   max-width:1400px ;
-   max-height: 3843px;
+   max-width:1400px;
+   height: 3843px;
    background-color: #FFFFFF; 
    
 }
 .header {  
-    width:100% ;
+    max-width: 1111px;
+    max-height: 496px; 
     max-width: 1400px;
-    margin:0 auto;
-    display: flex;
-   /* height: 30px;*/
+    display: flex;  
     justify-content: space-between;
     align-items: center;
     color: #173A56;
@@ -26,33 +25,13 @@
 
 
 
-
-
-
-
-
-
-/*.navigation {   rör ej mer 
-    max-width: 1400px; 
-    height: 78px; 
-    display:flex;
-    justify-content: space-evenly;
-}*/
-
-/*.navigation {  /*             
-    
-    display: flex;
-    justify-content: flex-end;
-    justify-content: space-between;
-}klar*/
-
-.navigation {  /* rör ej mer */
+.navigation {  /* rör ej  */
     display: flex;
     justify-content: space-evenly;   
     list-style-type: none;
 
 }
-   /* rör ej mer */
+   /* rör ej  */
 .Sign-in {
     max-width:102px;
     height:46px;
@@ -70,14 +49,14 @@
 
 
 
-.header-container {    /* rör ej mer  */
+.header-container {    /* rör ej   */
     max-width: 1111px;
     height: 496px;
     margin: 145px;
     display: flex;
-     /* rör ej flex direktion: row  */
+     /*   */
 }
-.header-info{   /* rör ej mer  */
+.header-info{   /* rör ej   */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -89,7 +68,7 @@
 
 
 
-.header-btn {    /*rör ej mer, på riktigt rör inte  */
+.header-btn {    /*rör ej  */
     max-width:366px;
     height: 53px;
     display: flex;
@@ -103,7 +82,7 @@
 
 
 
-.btn-1 {  /* get started  */   /* rör ej mer, på riktigt rör inte */
+.btn-1 {  /* get started  */   /* rör ej  */
     width:175px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -115,12 +94,12 @@
     color: #FFFFFF;
     border: none;
 }
-.btn-2 {  /* Triangel  */   /* rör ej mer, på riktigt rör inte  */
+.btn-2 {  /* Triangel  */   /* rör ej  */
     max-width:20px;
     height:17px;
     border-radius: 1.125px;
 }
-.btn-3 {  /* watch this video */    /* rör ej mer, på riktigt rör inte  */
+.btn-3 {  /* watch this video */    /* rör ej   */
     max-width:135px;
     height:24px;
     font-family: 'Poppins', sans-serif;
@@ -131,7 +110,7 @@
     text-decoration-line: underline;
     color: #FF9900;
 }
-.header-img {     /* rör ej mer, på riktigt rör inte  */
+.header-img {     /* rör ej   */
     height: 496px;
     display: flex;
 }
@@ -147,7 +126,7 @@
 
 
                     /*     Andra sektionen börjar här
-                               ej-fattas iconer                */
+                           ej klar. Det fattas iconer                */
 
 
 .feature-container{
@@ -190,15 +169,16 @@
     color: #2F281E;
 }   
 
-.info_card{
+/*.info_card{
     width: 240px;
-    
+    */
 }
 
 
 
 .design-info {
     width: 240px;
+    height: 78px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -243,7 +223,6 @@
 
 
 .title {   /* Huvudrubrik-Design Professionals  */
-
     max-width: 385px;
     height: 54px;
     font-family: 'Poppins', sans-serif;
@@ -321,11 +300,21 @@
 
 .img {
     display: flex;
-    position: absolute;
+    
 }
+/*  Design professionlas slutar är */
+
+       
 
 
 
+
+          /* Product Managers börjar här*/
+
+.title-ProductManagers {
+    max-width:1121px;
+    height: 521px;
+}     
 
 
 
